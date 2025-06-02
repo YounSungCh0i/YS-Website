@@ -221,20 +221,22 @@
                                 <li><strong>사진/영상 기록:</strong> 연구 활동 및 동양하루살이 생태 모습 촬영 (홍보자료 활용)</li>
                             </ul>
                         </div>
-                        <div class="md:col-span-2 card p-6">
-                             <h4 class="text-xl font-medium text-gray-700 mb-3 text-center">시각화 예시: 월별 동양하루살이 채집 개체 수</h4>
-                            <div class="chart-container w-full max-w-2xl mx-auto h-72 md:h-80">
-                                <canvas id="mayflyChart"></canvas>
+                        <div class="md:col-span-2 card p-6 bg-emerald-50">
+                             <h4 class="text-xl font-medium text-gray-700 mb-3 text-center">동양하루살이 주요 생태 이미지</h4>
+                            <div class="flex flex-col items-center justify-center">
+                                <img id="mayflyImg" src="./images/동양하루살이.jpeg" alt="동양하루살이 성충" class="w-full max-w-sm rounded-lg shadow-md mb-4">
+                            <div class="flex space-x-2">
+                                <button data-img-src="./images/동양하루살이.jpeg" data-img-alt="동양하루살이 성충" class="image-nav-btn text-sm px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition">성충</button>
+                                <button data-img-src="./images/mayfly_nymph.jpg" data-img-alt="동양하루살이 유충" class="image-nav-btn text-sm px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition">유충</button>
+                                <button data-img-src="./images/mayfly_habitat.jpg" data-img-alt="동양하루살이 서식지" class="image-nav-btn text-sm px-4 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition">서식지</button>
                             </div>
-                            
                         </div>
-                         <div class="md:col-span-2 card p-6 bg-emerald-50">
-                            <h4 class="text-xl font-medium text-gray-700 mb-3">연계 홍보 아이디어</h4>
-                            <p class="text-sm text-gray-600 leading-relaxed">"동양하루살이, 오해와 진실! 🤷‍♀️➡️💡" 카드뉴스, "한강의 작은 청소부, 동양하루살이를 만나다" 블로그 포스팅. 
-                                불편함 뒤에 숨겨진 생태적 가치를 알려 대중의 인식을 개선</p>
-                        </div>
+                          <p class="text-sm text-gray-600 mt-4 leading-relaxed">
+                                "동양하루살이, 오해와 진실! 🤷‍♀️➡️💡" 카드뉴스, "한강의 작은 청소부, 동양하루살이를 만나다" 블로그 포스팅. 불편함 뒤에 숨겨진 생태적 가치를 알려 대중의 인식을 개선
+                        </p>
                     </div>
                 </div>
+            </div>
 
                 <div id="research-bird" class="research-content hidden">
                     <h3 class="text-2xl font-semibold text-emerald-600 mb-6 text-center">2. 조류 개체군 및 행동 관찰</h3>
